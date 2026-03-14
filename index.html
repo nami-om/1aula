@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PLACAR</h1>
+    <section>
+        <div>
+           <h2>TIME A</h2>
+           <button onclick="aumentarPontosA()" >+</button>
+           <label id="placarA">0</label>
+           <button id="bt-a" onclick="diminuirPontosA()" >
+            <img src="minus.svg" alt="">
+           </button>
+        </div>
+        <div>
+            <h2>TIME B</h2>
+            <button onclick="aumentarPontosB()" >+</button>
+            <label id="placarB">0</label>
+            <button id="bt-b" onclick="diminuirPontosB()">
+                <img src="minus.svg" alt="">
+            </button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
